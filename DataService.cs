@@ -113,8 +113,8 @@ namespace Smart.Blazor.Demos.Data
 	}
 	public partial class GanttDataRecord
 	{
-		[JsonPropertyName("id")]
-		public string Id
+		[JsonPropertyName("ID")]
+		public string ID
 		{
 			get;
 			set;
@@ -1010,70 +1010,80 @@ namespace Smart.Blazor.Demos.Data
 					DateStart= "2021-01-10",
 					DateEnd= "2021-03-10",
 					Class= "product-team",
-					Type= "task"
+					Type= "task",
+					ID= "3"
 				},
 				new GanttDataRecord() {
 					Label= "Persona & Journey",
 					DateStart= "2021-03-01",
 					DateEnd= "2021-04-30",
 					Class= "marketing-team",
-					Type= "task"
+					Type= "task",
+					ID= "2"
 				},
 				new GanttDataRecord() {
 					Label= "Architecture",
 					DateStart= "2021-04-11",
 					DateEnd= "2021-05-16",
 					Class= "product-team",
-					Type= "task"
+					Type= "task",
+					ID= "1"
 				},
 				new GanttDataRecord() {
 					Label= "Prototyping",
 					DateStart= "2021-05-17",
 					DateEnd= "2021-07-01",
 					Class= "dev-team",
-					Type= "task"
+					Type= "task",
+					ID= "433"
 				},
 				new GanttDataRecord() {
 					Label= "Design",
 					DateStart= "2021-07-02",
 					DateEnd= "2021-08-01",
 					Class= "design-team",
-					Type= "task"
+					Type= "task",
+					ID= "43434"
 				},
 				new GanttDataRecord() {
 					Label= "Development",
 					DateStart= "2021-08-01",
 					DateEnd= "2021-09-10",
 					Class= "dev-team",
-					Type= "task"
+					Type= "task",
+					ID= "312312222"
 				},
 				new GanttDataRecord() {
 					Label= "Testing & QA",
 					DateStart= "2021-09-11",
 					DateEnd= "2021-10-10",
 					Class= "qa-team",
-					Type= "task"
+					Type= "task",
+					ID= "3213"
 				},
 				new GanttDataRecord() {
 					Label= "UAT Test",
 					DateStart= "2021-10-12",
 					DateEnd= "2021-11-11",
 					Class= "product-team",
-					Type= "task"
+					Type= "task",
+					ID= "12323123211"
 				},
 				new GanttDataRecord() {
 					Label= "Handover & Documentation",
 					DateStart= "2021-10-17",
 					DateEnd= "2021-11-31",
 					Class= "marketing-team",
-					Type= "task"
+					Type= "task",
+					ID= "12321"
 				},
 				new GanttDataRecord() {
 					Label= "Release",
 					DateStart= "2021-11-01",
 					DateEnd= "2021-12-31",
 					Class= "release-team",
-					Type= "task"
+					Type= "task",
+					ID= "12321"
 				}
 			};
 
